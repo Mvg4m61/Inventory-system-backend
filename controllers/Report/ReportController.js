@@ -10,12 +10,6 @@ exports.ExpensesByDate=async (req, res) => {
     res.status(200).json(Result)
 }
 
-exports.ExpensesByMonth=async (req, res) => {
-    let Result=await ExpenseReportService(req)
-    res.status(200).json(Result)
-}
-
-
 exports.PurchaseByDate=async (req, res) => {
     let Result=await PurchasesReportService(req)
     res.status(200).json(Result)
