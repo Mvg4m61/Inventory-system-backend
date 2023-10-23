@@ -21,7 +21,3 @@ exports.ReturnByDate=async (req, res) => {
     res.status(200).json(Result)
 }
 
-exports.SalesByDate=async (req, res) => {
-    let Result=await SalesReportService(req)
-    res.status(200).json(Result)
-}
