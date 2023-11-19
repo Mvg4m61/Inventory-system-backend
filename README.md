@@ -1,28 +1,39 @@
-# Inventory-system-backend
-This robust and scalable inventory management system is the backbone of your business's inventory control needs. Built with Node.js, it provides a powerful, efficient, and flexible solution to help you keep track of your products, streamline operations, and make data-driven decisions.
+# Inventory Management System
 
-🌟 Key Features:
+---
 
-✅ Real-time Inventory Tracking: Keep a pulse on your stock levels with real-time updates. Say goodbye to overstocking or running out of essential items.
+Inventory Management System(IMS) is a nodejs based system. It stores, manages and update to the detail or status of inventory.
 
-📋 Inventory Management: Easily add, edit, and delete products in your inventory. Categorize items, set prices, and manage stock levels effortlessly.
+----
 
-📦 Multiple Locations: Manage inventory across multiple locations or warehouses, ensuring you know where your products are at all times.
+### Requirements
 
-🔍 Search and Filters: Quickly find items with advanced search and filtering options, making it easy to locate specific products in your inventory.
+1. node(v13.6.0)
+2. npm(v6.13.4)
+3. mongodb(v3.4.23) or higher 
+4. [nvm](https://github.com/nvm-sh/nvm) (optional)
 
-📊 Analytics and Reporting: Gain valuable insights with customizable reports and analytics. Monitor sales, restocking needs, and more to make informed decisions.
+----
 
-🔒 User Authentication and Authorization: Secure your data with user authentication and authorization features, ensuring that only authorized personnel can access sensitive information.
+### How to Run 
 
-🚀 Scalable and Extendable: Built with scalability in mind, this backend system can grow with your business needs. Extend functionality easily with the Node.js ecosystem.
+1. Clone the project.
+2. Move towards the directory of the cloned project.
+3. Install the package using package manager npm.
 
-🌐 API Documentation: Comprehensive API documentation is provided to assist you in integrating this backend into your frontend applications or other systems.
+    ```bash
+    $ npm install
+    ```
 
-💼 Integration Ready: Seamlessly integrate with your existing software stack, such as e-commerce platforms, POS systems, and more.
+4. Configure the [project](#configuration).
+5. Start the project using.
 
-🔧 Easy Setup: Get up and running quickly with easy installation and configuration.
+    ```bash
+    $ npm start
+    ```
 
-📦 Start optimizing your inventory management today with this Node.js Inventory System Backend! Whether you're a small business or an enterprise, this solution will help you streamline your operations and boost your bottom line.
+6. Now the project will be running on http://localhost:3000. You can use [postman](https://www.postman.com/) or other software to communicate.
 
-🌐 Explore the code, contribute, and enhance your business's inventory management capabilities. Let's take control of your inventory together! 🚀
+----
+
+
